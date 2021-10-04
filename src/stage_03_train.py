@@ -33,9 +33,6 @@ def train(config_path, params_path):
     model_path = os.path.join(model_dir, model_filename)
 
     joblib.dump(lr, model_path)
-    
-    print('model trained successfully!')
-
 
 if __name__ == '__main__':
 
